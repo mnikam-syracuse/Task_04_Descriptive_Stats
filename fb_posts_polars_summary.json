@@ -1,0 +1,915 @@
+{
+  "summary_type": "polars",
+  "source_file": "/Users/mrunalnikam/Desktop/RA/Task_04_Descriptive_Stats/Datasets/2024_fb_posts_president_scored_anon.csv",
+  "overall": {
+    "basic_stats": {
+      "statistic": [
+        "count",
+        "null_count",
+        "mean",
+        "std",
+        "min",
+        "25%",
+        "50%",
+        "75%",
+        "max"
+      ],
+      "Facebook_Id": [
+        "19009",
+        "0",
+        null,
+        null,
+        "058bd86861262fa71733f8515c34b729d9ebcad3d318e2a133a6c572dd80ba0b",
+        null,
+        null,
+        null,
+        "fedbfaab19b5112a6889b862314ca9d3a626b22df7f959db3d9b1c4c54e69948"
+      ],
+      "post_id": [
+        "19009",
+        "0",
+        null,
+        null,
+        "0001e4a1dbadf84f0f43719972b60597cc79f1908bf60125779280f2a0054781",
+        null,
+        null,
+        null,
+        "ffff3f550f95017a77a35388243b4f576552db2c15421a8f28cf791981049879"
+      ],
+      "Page Category": [
+        "16537",
+        "2472",
+        null,
+        null,
+        "ACTOR",
+        null,
+        null,
+        null,
+        "YOUTH_ORGANIZATION"
+      ],
+      "Page Admin Top Country": [
+        "16280",
+        "2729",
+        null,
+        null,
+        "US",
+        null,
+        null,
+        null,
+        "US"
+      ],
+      "Post Created": [
+        "19009",
+        "0",
+        null,
+        null,
+        "2023-09-01 00:50:59 EDT",
+        null,
+        null,
+        null,
+        "2024-11-06T20:00:35.000Z"
+      ],
+      "Post Created Date": [
+        "19009",
+        "0",
+        null,
+        null,
+        "2023-09-01",
+        null,
+        null,
+        null,
+        "2024-11-06"
+      ],
+      "Post Created Time": [
+        "19009",
+        "0",
+        null,
+        null,
+        "00:00:03",
+        null,
+        null,
+        null,
+        "23:59:50"
+      ],
+      "Type": [
+        "16544",
+        "2465",
+        null,
+        null,
+        "Link",
+        null,
+        null,
+        null,
+        "YouTube"
+      ],
+      "Total Interactions": [
+        "19009",
+        "0",
+        null,
+        null,
+        "0",
+        null,
+        null,
+        null,
+        "999"
+      ],
+      "Likes": [
+        19009.0,
+        0.0,
+        2377.6954074385817,
+        11253.469668562248,
+        0.0,
+        31.0,
+        139.0,
+        738.0,
+        351979.0
+      ],
+      "Comments": [
+        19009.0,
+        0.0,
+        901.583197432795,
+        3681.9800962414115,
+        0.0,
+        8.0,
+        48.0,
+        354.0,
+        93872.0
+      ],
+      "Shares": [
+        19009.0,
+        0.0,
+        320.53895523173236,
+        1722.1598787908092,
+        0.0,
+        3.0,
+        21.0,
+        102.0,
+        76150.0
+      ],
+      "Love": [
+        19009.0,
+        0.0,
+        413.87732126887266,
+        3730.9404497835785,
+        0.0,
+        0.0,
+        4.0,
+        70.0,
+        244482.0
+      ],
+      "Wow": [
+        19009.0,
+        0.0,
+        5.8683255300120996,
+        52.94697862183509,
+        0.0,
+        0.0,
+        1.0,
+        3.0,
+        4345.0
+      ],
+      "Haha": [
+        19009.0,
+        0.0,
+        105.71971171550318,
+        942.0342481880689,
+        0.0,
+        0.0,
+        2.0,
+        29.0,
+        99276.0
+      ],
+      "Sad": [
+        19009.0,
+        0.0,
+        10.172181598190331,
+        418.3250070508284,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        56111.0
+      ],
+      "Angry": [
+        19009.0,
+        0.0,
+        20.05550002630333,
+        156.020088838535,
+        0.0,
+        0.0,
+        1.0,
+        9.0,
+        11814.0
+      ],
+      "Care": [
+        19009.0,
+        0.0,
+        34.92903361565574,
+        790.1032133297067,
+        0.0,
+        0.0,
+        0.0,
+        6.0,
+        85236.0
+      ],
+      "Video Share Status": [
+        "3271",
+        "15738",
+        null,
+        null,
+        "crosspost",
+        null,
+        null,
+        null,
+        "share"
+      ],
+      "Is Video Owner?": [
+        "16544",
+        "2465",
+        null,
+        null,
+        "-",
+        null,
+        null,
+        null,
+        "Yes"
+      ],
+      "Post Views": [
+        16544.0,
+        2465.0,
+        6485.058510638298,
+        90392.95844483374,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        4276477.0
+      ],
+      "Total Views": [
+        16544.0,
+        2465.0,
+        7461.847014023211,
+        95976.27884773155,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        4462155.0
+      ],
+      "Total Views For All Crossposts": [
+        16544.0,
+        2465.0,
+        3555.9379835589943,
+        88094.04831888726,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        4499458.0
+      ],
+      "Video Length": [
+        "3271",
+        "15738",
+        null,
+        null,
+        "00:00:00",
+        null,
+        null,
+        null,
+        "08:00:00"
+      ],
+      "Sponsor Id": [
+        "0",
+        "19009",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Sponsor Name": [
+        "0",
+        "19009",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Sponsor Category": [
+        "0",
+        "19009",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Overperforming Score": [
+        16544.0,
+        2465.0,
+        -2.744160420696325,
+        7.808476956626711,
+        -198.75,
+        -3.87,
+        -1.62,
+        1.16,
+        246.78
+      ],
+      "illuminating_scored_messageelection_integrity_Truth_illuminating": [
+        "0",
+        "19009",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "advocacy_msg_type_illuminating": [
+        19009.0,
+        0.0,
+        0.549266137092956,
+        0.497580016079574,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "issue_msg_type_illuminating": [
+        19009.0,
+        0.0,
+        0.4603082750276185,
+        0.498435187805786,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "attack_msg_type_illuminating": [
+        19009.0,
+        0.0,
+        0.2166868325530012,
+        0.4119982751678419,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "image_msg_type_illuminating": [
+        19009.0,
+        0.0,
+        0.14856120784891366,
+        0.3556647719112419,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "cta_msg_type_illuminating": [
+        19009.0,
+        0.0,
+        0.1328318165079699,
+        0.33940180462237174,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "engagement_cta_subtype_illuminating": [
+        19009.0,
+        0.0,
+        0.0908517018254511,
+        0.28740566368291404,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "fundraising_cta_subtype_illuminating": [
+        19009.0,
+        0.0,
+        0.01841233100110474,
+        0.13444057384240987,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "voting_cta_subtype_illuminating": [
+        19009.0,
+        0.0,
+        0.023409963701404597,
+        0.15120562176830252,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "covid_topic_illuminating": [
+        19009.0,
+        0.0,
+        0.05239623336314377,
+        0.22283060875079394,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "economy_topic_illuminating": [
+        19009.0,
+        0.0,
+        0.09037824188542269,
+        0.2867304314176825,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "education_topic_illuminating": [
+        19009.0,
+        0.0,
+        0.014992898100899574,
+        0.12152731400515626,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "environment_topic_illuminating": [
+        19009.0,
+        0.0,
+        0.022252617181335158,
+        0.14750790777543615,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "foreign_policy_topic_illuminating": [
+        19009.0,
+        0.0,
+        0.03687726866221264,
+        0.18846539275137486,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "governance_topic_illuminating": [
+        19009.0,
+        0.0,
+        0.03109053606186543,
+        0.17356698831044248,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "health_topic_illuminating": [
+        19009.0,
+        0.0,
+        0.04866116050291967,
+        0.2151643265574399,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "immigration_topic_illuminating": [
+        19009.0,
+        0.0,
+        0.04082276816244937,
+        0.19788463748089133,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "lgbtq_issues_topic_illuminating": [
+        19009.0,
+        0.0,
+        0.0033668262402020096,
+        0.057928121424024204,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "military_topic_illuminating": [
+        19009.0,
+        0.0,
+        0.0055763059603345785,
+        0.0744681307844907,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "race_and_ethnicity_topic_illuminating": [
+        19009.0,
+        0.0,
+        0.021568730601294123,
+        0.14527432913517427,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "safety_topic_illuminating": [
+        19009.0,
+        0.0,
+        0.032195275921931714,
+        0.17652302788510535,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "social_and_cultural_topic_illuminating": [
+        19009.0,
+        0.0,
+        0.06170761218370246,
+        0.24063006640218323,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "technology_and_privacy_topic_illuminating": [
+        19009.0,
+        0.0,
+        0.0020516597401230995,
+        0.04524995190747905,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "womens_issue_topic_illuminating": [
+        19009.0,
+        0.0,
+        0.0254616234415277,
+        0.15752661549177788,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "incivility_illuminating": [
+        19009.0,
+        0.0,
+        0.1278867904676732,
+        0.33397249424700726,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scam_illuminating": [
+        18060.0,
+        949.0,
+        0.020210409745293468,
+        0.1407232944376072,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "freefair_illuminating": [
+        19009.0,
+        0.0,
+        0.0028407596401704457,
+        0.05322441874762225,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "fraud_illuminating": [
+        19009.0,
+        0.0,
+        0.00862749224051765,
+        0.09248518037867294,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "Facebook_Id": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "post_id": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "Page Category": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "Page Admin Top Country": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "Post Created": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "Post Created Date": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "Post Created Time": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "Type": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "Total Interactions": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "Likes": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "Comments": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "Shares": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "Love": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "Wow": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "Haha": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "Sad": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "Angry": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "Care": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "Video Share Status": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "Is Video Owner?": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "Post Views": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "Total Views": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "Total Views For All Crossposts": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "Video Length": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "Sponsor Id": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "Sponsor Name": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "Sponsor Category": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "Overperforming Score": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "illuminating_scored_messageelection_integrity_Truth_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "advocacy_msg_type_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "issue_msg_type_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "attack_msg_type_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "image_msg_type_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "cta_msg_type_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "engagement_cta_subtype_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "fundraising_cta_subtype_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "voting_cta_subtype_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "covid_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "economy_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "education_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "environment_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "foreign_policy_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "governance_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "health_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "immigration_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "lgbtq_issues_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "military_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "race_and_ethnicity_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "safety_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "social_and_cultural_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "technology_and_privacy_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "womens_issue_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "incivility_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "scam_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "freefair_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "fraud_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    }
+  }
+}
