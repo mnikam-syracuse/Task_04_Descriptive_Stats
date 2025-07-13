@@ -1,0 +1,771 @@
+{
+  "summary_type": "polars",
+  "source_file": "/Users/mrunalnikam/Desktop/RA/Task_04_Descriptive_Stats/Datasets/2024_tw_posts_president_scored_anon.csv",
+  "overall": {
+    "basic_stats": {
+      "statistic": [
+        "count",
+        "null_count",
+        "mean",
+        "std",
+        "min",
+        "25%",
+        "50%",
+        "75%",
+        "max"
+      ],
+      "id": [
+        "27304",
+        "0",
+        null,
+        null,
+        "0000635d0c9e7bdf89dfc13811d080dbffac54894594354aa0876b3c12d59aeb",
+        null,
+        null,
+        null,
+        "fffbb471d8b0bd6d990b4f9f22283b4bc99b44f585df872a9f795bc4a7684087"
+      ],
+      "url": [
+        "27304",
+        "0",
+        null,
+        null,
+        "0000179c6b90798f167528aaaaf67886a975ea68af78f4f342822fae858fdcf1",
+        null,
+        null,
+        null,
+        "ffffd63fa71574c0127b90e12fdba35ecc10d2563e8dad8a3b82698381b45794"
+      ],
+      "source": [
+        "27304",
+        "0",
+        null,
+        null,
+        "Canva",
+        null,
+        null,
+        null,
+        "Twitter for iPhone"
+      ],
+      "retweetCount": [
+        27304.0,
+        0.0,
+        1322.0551933782597,
+        3405.0042401645183,
+        0.0,
+        84.0,
+        333.0,
+        1071.0,
+        144615.0
+      ],
+      "replyCount": [
+        27304.0,
+        0.0,
+        1063.7850131848813,
+        3174.981654139348,
+        0.0,
+        43.0,
+        131.0,
+        501.0,
+        121270.0
+      ],
+      "likeCount": [
+        27304.0,
+        0.0,
+        6913.69282888954,
+        21590.307989209447,
+        0.0,
+        393.0,
+        1406.0,
+        5010.0,
+        915221.0
+      ],
+      "quoteCount": [
+        27304.0,
+        0.0,
+        128.08156314093173,
+        1131.5334680019284,
+        0.0,
+        5.0,
+        17.0,
+        69.0,
+        123320.0
+      ],
+      "viewCount": [
+        27304.0,
+        0.0,
+        507084.7318341635,
+        3212173.9862966556,
+        5.0,
+        27853.0,
+        70942.0,
+        303661.0,
+        333502775.0
+      ],
+      "createdAt": [
+        "27304",
+        "0",
+        null,
+        null,
+        "2023-09-01 00:30:21",
+        null,
+        null,
+        null,
+        "2024-11-04 23:40:21"
+      ],
+      "lang": [
+        "27304",
+        "0",
+        null,
+        null,
+        "da",
+        null,
+        null,
+        null,
+        "tr"
+      ],
+      "bookmarkCount": [
+        27304.0,
+        0.0,
+        136.21352182830356,
+        712.5802944831518,
+        0.0,
+        4.0,
+        21.0,
+        76.0,
+        42693.0
+      ],
+      "isReply": [
+        27304.0,
+        0.0,
+        0.1235716378552593,
+        null,
+        0.0,
+        null,
+        null,
+        null,
+        1.0
+      ],
+      "isRetweet": [
+        27304.0,
+        0.0,
+        0.0,
+        null,
+        0.0,
+        null,
+        null,
+        null,
+        0.0
+      ],
+      "isQuote": [
+        27304.0,
+        0.0,
+        0.11866393202461178,
+        null,
+        0.0,
+        null,
+        null,
+        null,
+        1.0
+      ],
+      "isConversationControlled": [
+        27304.0,
+        0.0,
+        0.0002929973630237328,
+        null,
+        0.0,
+        null,
+        null,
+        null,
+        1.0
+      ],
+      "quoteId": [
+        3287.0,
+        24017.0,
+        1.7642983966589501e+18,
+        6.894686649329472e+16,
+        7.912639390153769e+17,
+        1.726465576032453e+18,
+        1.756495928737825e+18,
+        1.8166247462487452e+18,
+        1.8535761683325583e+18
+      ],
+      "inReplyToId": [
+        3345.0,
+        23959.0,
+        1.7582857247419996e+18,
+        4.36119657015605e+16,
+        1.2400673584227e+18,
+        1.72680073080644e+18,
+        1.74664126277265e+18,
+        1.7892256027314386e+18,
+        1.853530653414859e+18
+      ],
+      "month_year": [
+        "27304",
+        "0",
+        null,
+        null,
+        "2023-09",
+        null,
+        null,
+        null,
+        "2024-11"
+      ],
+      "illuminating_scored_message": [
+        "27304",
+        "0",
+        null,
+        null,
+        "0000f20a94aa332e2e6ed7a0620f984ad490a5a5c17177a62118db308aa667db",
+        null,
+        null,
+        null,
+        "fffe6f31ba97d0146391210639849329711a8348f57524aad4c2511eb18c0e1a"
+      ],
+      "election_integrity_Truth_illuminating": [
+        26034.0,
+        1270.0,
+        0.03714373511561804,
+        0.1891175609378361,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "advocacy_msg_type_illuminating": [
+        26034.0,
+        1270.0,
+        0.5636859491434278,
+        0.49593703963228053,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "issue_msg_type_illuminating": [
+        26034.0,
+        1270.0,
+        0.507682261657832,
+        0.49995058134254755,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "attack_msg_type_illuminating": [
+        26034.0,
+        1270.0,
+        0.3075977567795959,
+        0.46150791760416376,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "image_msg_type_illuminating": [
+        26034.0,
+        1270.0,
+        0.22643466236460014,
+        0.4185316409839206,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "cta_msg_type_illuminating": [
+        26034.0,
+        1270.0,
+        0.10966428516555274,
+        0.3124768475794727,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "engagement_cta_subtype_illuminating": [
+        26034.0,
+        1270.0,
+        0.0669124990397173,
+        0.24987519849406606,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "fundraising_cta_subtype_illuminating": [
+        26034.0,
+        1270.0,
+        0.007874318199277867,
+        0.08838898916084756,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "voting_cta_subtype_illuminating": [
+        26034.0,
+        1270.0,
+        0.016785741722363065,
+        0.1284702866854094,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "covid_topic_illuminating": [
+        26034.0,
+        1270.0,
+        0.0076054390412537455,
+        0.08687857194055204,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "economy_topic_illuminating": [
+        26034.0,
+        1270.0,
+        0.16021356687408772,
+        0.3668110523395825,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "education_topic_illuminating": [
+        26034.0,
+        1270.0,
+        0.01843742797879696,
+        0.13452949268938846,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "environment_topic_illuminating": [
+        26034.0,
+        1270.0,
+        0.028539602058846123,
+        0.16651173583618067,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "foreign_policy_topic_illuminating": [
+        26034.0,
+        1270.0,
+        0.042252439118076364,
+        0.20116839951473556,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "governance_topic_illuminating": [
+        26034.0,
+        1270.0,
+        0.022969962356917877,
+        0.1498105645777889,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "health_topic_illuminating": [
+        26034.0,
+        1270.0,
+        0.05565798571099332,
+        0.2292644615290389,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "immigration_topic_illuminating": [
+        26034.0,
+        1270.0,
+        0.06529922409157256,
+        0.24705784739188538,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "lgbtq_issues_topic_illuminating": [
+        26034.0,
+        1270.0,
+        0.0030729046631328264,
+        0.05534961243011968,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "military_topic_illuminating": [
+        26034.0,
+        1270.0,
+        0.010985634170699855,
+        0.10423707289416255,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "race_and_ethnicity_topic_illuminating": [
+        26034.0,
+        1270.0,
+        0.015402934623953292,
+        0.12315139782021392,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "safety_topic_illuminating": [
+        26034.0,
+        1270.0,
+        0.03760467081508796,
+        0.19024181908327997,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "social_and_cultural_topic_illuminating": [
+        26034.0,
+        1270.0,
+        0.05197050011523392,
+        0.22197175454151635,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "technology_and_privacy_topic_illuminating": [
+        26034.0,
+        1270.0,
+        0.0020357993393254974,
+        0.04507474794044172,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "womens_issue_topic_illuminating": [
+        26034.0,
+        1270.0,
+        0.02331566413152032,
+        0.15090698683369944,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "incivility_illuminating": [
+        26034.0,
+        1270.0,
+        0.17857417223630637,
+        0.3830027047455516,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scam_illuminating": [
+        26034.0,
+        1270.0,
+        0.012368441269109626,
+        0.1105257081389594,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "freefair_illuminating": [
+        27304.0,
+        0.0,
+        0.0014283621447406974,
+        0.037767369074478356,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "fraud_illuminating": [
+        27304.0,
+        0.0,
+        0.0027468502783474947,
+        0.052339329587953634,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "id": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "url": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "source": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "retweetCount": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "replyCount": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "likeCount": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "quoteCount": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "viewCount": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "createdAt": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "lang": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "bookmarkCount": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "isReply": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "isRetweet": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "isQuote": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "isConversationControlled": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "quoteId": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "inReplyToId": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "month_year": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "illuminating_scored_message": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "election_integrity_Truth_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "advocacy_msg_type_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "issue_msg_type_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "attack_msg_type_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "image_msg_type_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "cta_msg_type_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "engagement_cta_subtype_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "fundraising_cta_subtype_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "voting_cta_subtype_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "covid_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "economy_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "education_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "environment_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "foreign_policy_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "governance_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "health_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "immigration_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "lgbtq_issues_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "military_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "race_and_ethnicity_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "safety_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "social_and_cultural_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "technology_and_privacy_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "womens_issue_topic_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "incivility_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "scam_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "freefair_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    },
+    "fraud_illuminating": {
+      "n_unique": null,
+      "most_common": null,
+      "frequency": null
+    }
+  }
+}
